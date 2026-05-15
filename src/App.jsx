@@ -12,7 +12,6 @@ function App() {
 
   return (
       <Router>
-        <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/users/:id" element={<Users />} />
